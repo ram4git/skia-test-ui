@@ -18,7 +18,7 @@ export default function Home() {
                     <div className=" h-36 w-36 rounded-full border-8 border-green-900"></div>
                     <div className=" h-32 w-32 bg-red-600 rotate-45 transform origin-center"></div>
                 </div>
-                <h1 className="text-center text-lg text-gray-900 py-2">The quick brown fox <span className='bold text-xl text-blue-900'>jumps</span> over the <span className=' font-thin font-mono text-green-900'>lazy</span> dog</h1>
+                <h1 className="text-center text-2xl text-gray-900 py-6">The quick brown fox <span className='bold text-xl text-blue-900'>jumps</span> over the <span className=' font-thin font-mono text-green-900'>lazy</span> dog</h1>
             </div>
         </main>
     </div>
