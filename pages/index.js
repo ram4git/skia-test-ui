@@ -17,8 +17,9 @@ export default function Home() {
                 {/* <div className=' grid grid-flow-col-dense justify-center'>
                     <div className=" h-36 w-36 rounded-full border-8 border-green-900"></div>
                 </div> */}
-                <h1 className="text-center text-2xl text-gray-900 py-6">The quick brown fox <span className='bold text-xl text-blue-900'>jumps</span> over the <span className=' font-thin font-mono text-green-900'>lazy</span> dog</h1>
-            </div>
+                {/* <h1 className="text-center text-2xl text-gray-900 py-6">The quick brown fox <span className='bold text-xl text-blue-900'>jumps</span> over the <span className=' font-thin font-mono text-green-900'>lazy</span> dog</h1> */}
+                <h1 className="text-center">Its a wonderful day to inspect skia</h1>
+              </div>
         </main>
     </div>
   )
