@@ -2,7 +2,7 @@ const VideoPage = ({ }) => {
 
     return (
         <div className="flex justify-center items-center flex-col gap-2">
-            <h1 className="text-center text-3xl mt-12 text-blue-800 font-bold">Sonet Video Player</h1>
+            <h1 className="text-center text-3xl mt-12 text-blue-800 font-bold font-['Open_Sans']">Sonet Video Player</h1>
             <video src="/assets/sample_sm.mp4" className="h-96 aspect-video border-2 rounded-lg object-cover" controls></video>
             <div className="flex justify-center items-center flex-row ">
             <img
