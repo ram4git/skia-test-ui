@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Script from 'next/script'
 
 import styles from '../styles/Home.module.css'
 
@@ -10,7 +11,14 @@ export default function img1() {
                 <title>Sonet</title>
                 <meta name="description" content="sonet demo UI" />
                 <link rel="icon" href="/favicon.ico" />
+
             </Head>
+                            <Script
+					src="https://config.confirmic.com/config.js?id=prj:637daf03-878a-49bf-a025-3e4c8708a2f2"
+					crossorigin
+					charset="utf-8"
+				/>
+				<Script src="https://consent-manager.confirmic.com/embed.js" crossorigin charset="utf-8" />
 
             <main className='h-screen w-screen max-w-4xl mx-auto grid justify-center items-center'>
                 <div className="grid grid-flow-row-dense ">
