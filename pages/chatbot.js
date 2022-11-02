@@ -34,8 +34,7 @@ export default function Img1() {
 
             <main className='h-screen w-screen max-w-4xl mx-auto grid justify-center items-center'>
                 <div className="grid grid-flow-row-dense w-96">
-                    <div className="h-96 bg-red-200 my-4"></div>
-                    <p className="text-center text-gray-800">Hello world!</p>
+                    <p className="text-center text-gray-800 text-4xl">Hello</p>
                 </div>
             </main>
         </div>
