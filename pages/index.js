@@ -8,23 +8,11 @@ export default function Home() {
     return (
         <div>
             <Script
-                id="onload-id"
-                onLoad={() => {
-                    window.__be = window.__be || {};
-                    window.__be.id = "6362751136e08c0007252a6f";
-                    (function () {
-                        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
-                        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
-                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
-                    })();
-                }}
+                src="https://config.confirmic.com/config.js?id=prj:637daf03-878a-49bf-a025-3e4c8708a2f2"
+                crossorigin
+                charset="utf-8"
             />
-            <Script
-					src="https://config.confirmic.com/config.js?id=prj:637daf03-878a-49bf-a025-3e4c8708a2f2"
-					crossorigin
-					charset="utf-8"
-				/>
-				<Script src="https://consent-manager.confirmic.com/embed.js" crossorigin charset="utf-8" />
+            <Script src="https://consent-manager.confirmic.com/embed.js" crossorigin charset="utf-8" />
             <div>
                 <a href="https://sonet.okta.com">Sonet OKTA</a>
                 <a href="https://jira.com">JIRA</a>
