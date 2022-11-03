@@ -15,16 +15,10 @@ export default function Img1() {
                 <link rel="icon" href="/favicon.ico" />
 
             </Head>
-                            <Script
-					src="https://config.confirmic.com/config.js?id=prj:637daf03-878a-49bf-a025-3e4c8708a2f2"
-					crossorigin
-					charset="utf-8"
-				/>
-				<Script src="https://consent-manager.confirmic.com/embed.js" crossorigin charset="utf-8" />
 
-            <main className='h-screen w-screen max-w-4xl bg-gray-500'>
-                <div className="grid grid-flow-row-dense w-96">
-                    <p className="text-left text-gray-800 text-4xl">Hello</p>
+            <main className='h-screen w-screen flex justify-center   '>
+                <div className="max-w-4xl w-full bg-red-500 flex justify-center items-center h-screen border-2">
+                    <div className=""><p className="text-left text-gray-800 text-4xl">Hello</p></div>
                 </div>
             </main>
         </div>
