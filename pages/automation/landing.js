@@ -7,7 +7,7 @@ const LandingHome = () => {
   useEffect(() => {
     setTimeout(() => {
       setColor("bg-green-500");
-    }, 5000);
+    }, 10000);
   }, []);
 
   return (
