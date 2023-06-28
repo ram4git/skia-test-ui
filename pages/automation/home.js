@@ -9,7 +9,7 @@ const Home = () => {
       <div>
         <input
           onChange={(e) => setValue(e.target.value)}
-          autofocus={true}
+      autoFocus={true}
           placeholder="type here..."
           className="h-8 rounded-full shadow-sm py-2 pl-2 border-2 border-blue-200"
         ></input>
