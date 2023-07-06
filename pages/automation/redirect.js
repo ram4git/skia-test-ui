@@ -4,6 +4,8 @@ import Link from 'next/link'
 const Redirect = () => {
   const [val, setValue] = useState("bg-red-500");
 
+  console.log('test')
+
   return (
     <div className="h-screen w-screen grid place-items-center relative">
       <div className="absolute top-2 left-2 py-2 px-6 bg-blue-500 text-white rounded-sm shadow-sm">
