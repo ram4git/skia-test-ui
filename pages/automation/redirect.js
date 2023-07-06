@@ -1,20 +1,18 @@
+
 import { useState } from "react";
-import Link from 'next/link'
+import {useRouter} from "next/router";
 
 const Redirect = () => {
-  const [val, setValue] = useState("bg-red-500");
+  const router = useRouter()
 
-  console.log('test')
+  const [val, setValue] = useState("bg-red-500");
 
   return (
     <div className="h-screen w-screen grid place-items-center relative">
-      <div className="absolute top-2 left-2 py-2 px-6 bg-blue-500 text-white rounded-sm shadow-sm">
-        <Link
-            href="/automation/landing"
-            className=" bg-blue-500 text-white rounded-sm shadow-sm"
-        >
-            CLICK ME TO REDIRECT
-        </Link>
+      <div className="absolute top-0 left-0 py-1 px-1 bg-blue-500 text-white rounded-sm shadow-sm">
+        <button type="button" onClick={() => router.push('/automation/landing')}>
+        CLICK ME TO REDIRECT
+    </button>
       </div>
     </div>
   );
