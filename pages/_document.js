@@ -1,10 +1,19 @@
-import { Html, Head, Main, NextScript } from 'next/document';
-import Script from 'next/script';
+import { Head, Html, Main, NextScript } from 'next/document';
 
 export default function Document() {
 	return (
 		<Html>
-			<Head />
+			<Head>
+				<link rel="preconnect" href="https://fonts.googleapis.com" />
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+				<link
+					defer
+					href="https://fonts.googleapis.com/css?family=Manrope&display=swap"
+					rel="stylesheet"
+					type="text/css"
+					as="style"
+				/>
+			</Head>
 			<body>
 				<Main />
 				<NextScript />
