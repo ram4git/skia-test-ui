@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Script from 'next/script'
 import { useEffect } from 'react'
 
@@ -27,7 +26,7 @@ export default function Img1() {
             </Head>
                             <Script
 					src="https://config.confirmic.com/config.js?id=prj:637daf03-878a-49bf-a025-3e4c8708a2f2"
-					crossorigin
+					crossOrigin
 					charset="utf-8"
 				/>
 				<Script src="https://consent-manager.confirmic.com/embed.js" crossorigin charset="utf-8" />

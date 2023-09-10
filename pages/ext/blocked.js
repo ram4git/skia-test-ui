@@ -33,7 +33,7 @@ export default function Blocked() {
                                     resolution || 'This is the second line where we give them a way to resolve like contacting the admin.'
                                 }
                             </p>
-                            <p class=" text-transparent">{"_".repeat(32)}</p>
+                            <p className=" text-transparent">{"_".repeat(32)}</p>
                         </div>
                     </div>
                     </div>
