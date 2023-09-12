@@ -22,18 +22,19 @@ export default function Blocked() {
                     </div>
                     <div className="mx-auto max-w-md px-6 z-10">
                         <div className="space-y-6 py-8 text-base leading-7 text-gray-600">
-                            <p>
+                            <p className="capitalize">
                                 {
                                     reason || 'This is the first line of the message where we tell them why is this page blocked.'
                                 }
                             </p>
+                            {
+                                resolution ?
+                                <p className="capitalize">
+                                    {resolution}
+                                </p> : null
+                            }
 
-                            <p>
-                                {
-                                    resolution || 'This is the second line where we give them a way to resolve like contacting the admin.'
-                                }
-                            </p>
-                            <p className=" text-transparent">{"_".repeat(32)}</p>
+                            <p className=" text-transparent text-xs">{"_".repeat(32)}</p>
                         </div>
                     </div>
                     </div>
