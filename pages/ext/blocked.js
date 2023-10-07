@@ -1,9 +1,10 @@
 
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
 
 export default function Blocked() {
     const router = useRouter()
-    const { title, reason, resolution, tag } = router.query
+    const { title, reason, resolution, tag } = router.query;
+    const DEFAULT_REASON = 'This page is blocked as per policy. If you believe you need to access this page for your work, please reach out to your administrator for assistance.';
 
     return (
         <div className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-blue-50 py-6 sm:py-12">
@@ -22,9 +23,9 @@ export default function Blocked() {
                     </div>
                     <div className="mx-auto max-w-md px-6 z-10">
                         <div className="space-y-6 py-8 text-base leading-7 text-gray-600">
-                            <p className="capitalize">
+                            <p className="">
                                 {
-                                    reason || 'This is the first line of the message where we tell them why is this page blocked.'
+                                    reason || DEFAULT_REASON
                                 }
                             </p>
                             {
