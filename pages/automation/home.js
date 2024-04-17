@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Link from 'next/link'
 
 const Home = () => {
   const [val, setValue] = useState("bg-red-500");
@@ -9,7 +8,7 @@ const Home = () => {
       <div>
         <input
           onChange={(e) => setValue(e.target.value)}
-            autoFocus={true}
+          autoFocus={true}
           placeholder="type here..."
           className="h-8 rounded-full shadow-sm py-2 pl-2 border-2 border-blue-200"
         ></input>

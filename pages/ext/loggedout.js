@@ -18,7 +18,7 @@ export default function LoggedOut() {
                 </svg>
                 <span className="px-2">Reconnect</span>
             </button>
-        </div >
+        </div>
     )
 }
 
